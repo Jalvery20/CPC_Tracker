@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-shadow: 3px 3px 3px black;
+}
+
+a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.point {
+  cursor: pointer;
+}
+.point:hover {
+  opacity: 0.5;
+}
