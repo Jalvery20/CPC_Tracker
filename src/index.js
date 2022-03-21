@@ -4,7 +4,6 @@ import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CPContext from "./CPContext"
-import "react-alice-carousel/lib/alice-carousel.css"
 
 ReactDOM.render(
   <React.StrictMode>
