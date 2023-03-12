@@ -93,8 +93,8 @@ export default function CoinsTable() {
     <ThemeProvider theme={darkTheme}>
       <Container style={{ textAlign: "center" }}>
         <Typography
-          variant="h4"
-          style={{letterSpacing:".1em", margin: 18, fontFamily: "Montserrat" }}
+          variant="h5"
+          style={{letterSpacing:".25em", margin: 18, fontFamily: "Montserrat" }}
         >
           Cryptocurrency Prices by Market Cap
         </Typography>
@@ -129,7 +129,7 @@ export default function CoinsTable() {
                     <TableCell
                         style={{
                             color: "white",
-                            fontSize:"20px",
+                            fontSize:"14px",
                             fontWeight: "700",
                             fontFamily: "Montserrat",
                         }}
@@ -173,7 +173,7 @@ export default function CoinsTable() {
                             <span
                               style={{
                                 textTransform: "uppercase",
-                                fontSize: 22,
+                                fontSize: 14,
                               }}
                             >
                               {row.symbol}

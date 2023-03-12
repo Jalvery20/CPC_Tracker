@@ -6,15 +6,14 @@ import {useHistory} from "react-router-dom";
 const useStyles=makeStyles(()=>({
     title:  {
         flex:6,
-        letterSpacing:".2em",
+        letterSpacing:".15em",
         fontFamily:"Montserrat",
         fontWeight:"bold",
     },
     sign:{
         flex:1,
-        letterSpacing:".2em",
+        letterSpacing:".1em",
         fontFamily:"Montserrat",
-        fontWeight:"bold",
         cursor:"pointer",
     }
   }))
