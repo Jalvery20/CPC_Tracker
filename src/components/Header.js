@@ -33,12 +33,6 @@ const Header = () => {
                         <Typography variant="h5" className={classes.title} onClick={()=>history.push("/")} >
                             <span className="point" >CPC Tracker</span>
                         </Typography>
-                        <Typography variant="h6"  className={classes.sign}>
-                            <span className="point" >Sign up</span>
-                        </Typography>
-                        <Typography variant="h6"  className={classes.sign}>
-                            <span className="point" >Sign in</span>
-                        </Typography>
 
                         
                     </Toolbar>
