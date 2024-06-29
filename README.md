@@ -1,1 +1,1 @@
-Link to Project deploy https://cpc-tracker-ci4o.onrender.com
+Link to Project deploy https://cpc-tracker.onrender.com
